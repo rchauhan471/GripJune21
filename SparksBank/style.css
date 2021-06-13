@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: px;
+    font-family: "Lato", serif;
+    color: white;
+    background-image: url("gif2.gif");
+    background-color: black;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+h1,
+h2 {
+    text-shadow: 2px 2px red;
+}
+
+.logo {
+    margin: 10px 0px 0px 10px;
+}
+
+.description {
+    margin-top: 130px;
+}
+
+.vector {
+    padding: 100px;
+}
+
+.go-to {
+    text-align: center;
+    padding: 30px;
+}
+
+.space {
+    margin: 70px;
+    border: 2px black solid;
+}
+
+label {
+    font-size: 1em;
+}
+
+.button {
+    display: inline-block;
+    padding: 0px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #bf1363;
+    border: none;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: #39a6a3
+}
